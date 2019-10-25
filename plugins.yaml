@@ -1,0 +1,24 @@
+plugins:
+  saul-good-man/Better-Call-Saul:
+  - size
+  - cat
+  - dog
+  - trigger
+  - welcome
+  - config-updater
+config_updater:
+  maps:
+    config.yaml:
+      name: config
+    # Update the plugin configmap whenever plugins.yaml changes
+    plugins.yaml:
+      name: plugin
+#    some/data.yaml:
+#      name: data
+#      key: this
+#    some/other-data.yaml
+#      name: data
+#      key: that
+#    # Update the fejtaverse configmap whenever any `.yaml` file under `fejtaverse` changes
+#    fejtaverse/**/*.yaml
+#      name: fejtaverse
